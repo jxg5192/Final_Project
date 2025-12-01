@@ -26,6 +26,12 @@ body {
   display: block;
   margin: 0 auto 24px;      /* centers it */
   box-shadow: 0 12px 28px rgba(16, 185, 129, 0.25);
+  transition: transform 0.35s; 
+}
+
+
+.logo-img:hover {
+  transform: rotate(5deg) /* slight rotation + cute pop */
 }
 
 
